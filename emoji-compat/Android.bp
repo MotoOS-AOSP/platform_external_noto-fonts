@@ -63,7 +63,7 @@ prebuilt_emoji_font {
     src: "font/NotoColorEmoji.ttf",
     soong_config_variables: {
         emoji_font_version: {
-            src: "font/%s/NotoColorEmoji.ttf",
+            src: "font/NotoColorEmoji.ttf",
         },
     },
 }
