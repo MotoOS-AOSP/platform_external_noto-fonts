@@ -60,10 +60,10 @@ prebuilt_emoji_font {
         targets: ["droidcore"],
     },
     // Need a default value because SDK build doesn't include fonts.mk.
-    src: "font/2.042/Noto-COLRv1-noflags.ttf",
+    src: "font/NotoColorEmoji.ttf",
     soong_config_variables: {
         emoji_font_version: {
-            src: "font/%s/Noto-COLRv1-noflags.ttf",
+            src: "font/%s/NotoColorEmoji.ttf",
         },
     },
 }
